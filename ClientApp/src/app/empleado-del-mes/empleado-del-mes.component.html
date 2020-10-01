@@ -1,0 +1,14 @@
+<div class="card text-center">
+  <div class="card-header">
+    TITULO
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Damos especial reconocimiento a {{datosEmpleado.nombre}}</h5>
+
+    <p *ngIf="datosEmpleado.edad >= 18" class="card-text">Por sus {{datosEmpleado.edad}} años ayudando en la empresa.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    ¡Noticias de la empresa!
+  </div>
+</div>
